@@ -4,3 +4,5 @@ jesaispasquoidessiner.wsgi
 .htaccess
 .ftpquota
 passenger_*
+tmp/
+*.pyc
