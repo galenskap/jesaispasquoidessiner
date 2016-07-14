@@ -1,0 +1,6 @@
+# Production
+app.py
+jesaispasquoidessiner.wsgi
+.htaccess
+.ftpquota
+passenger_*
