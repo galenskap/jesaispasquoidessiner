@@ -1,4 +1,5 @@
 import sqlite3
+#import cherrypy
 from bottle import Bottle, run, view, debug, template
 
 app = Bottle()
@@ -25,6 +26,10 @@ def objets_list():
     output = template('views/list', objets=objets, situations=situations)
     return output
 
+# static files
+@app.route('/static/<filename>')
+def server_static(filename):
+    return static_file(filename, root='/static/')
 
-debug(True)
-run(app, host='localhost', port=8080, reloader=True)
+
+#run(host='0.0.0.0', port=80, server='cherrypy')

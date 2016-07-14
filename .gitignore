@@ -1,8 +1,5 @@
-# Production
-app.py
-jesaispasquoidessiner.wsgi
-.htaccess
-.ftpquota
-passenger_*
-tmp/
-*.pyc
+# GENERATED
+generateur.db
+
+# PRODUCTION FILES
+*.wsgi
