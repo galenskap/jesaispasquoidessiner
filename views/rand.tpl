@@ -20,5 +20,8 @@
             </div>
             <a href="/" class="btn reload">mouais...</a>
         </div>
+        <div class="social">
+            <a class="github" href="https://github.com/galenskap/jesaispasquoidessiner" title="Get the code on Github">Github</a>
+        </div>
     </body>
 </html>

@@ -36,3 +36,16 @@ h1 {
 .btn:hover {
     background:#3c6960;
 }
+.social {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+.github {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url('github.png') no-repeat;
+    width: 32px;
+    height: 32px;
+}
